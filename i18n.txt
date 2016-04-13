@@ -9,11 +9,11 @@ login.loging.label=登陆中...
 
 applications.first.host=添加你的第一个主机
 applications.first.service=添加你的第一个服务
-applications.service.info.1=服务是一组由同一个Docker镜像创建的容器集合，我们利用自身轻量级分布式DNS服务实现了服务发现，从而扩展了Docker自身links的概念。我们可以单独的添加服务，也可以从应用仓库中选择并部署。
-applications.service.info.2=服务还可以利用其它的Rancher的内置服务,如负载均衡，健康监测，升级支持，以及高可用性。
+applications.service.info.1=Servic是一组由同一个Docker镜像创建的容器集合，我们利用自身轻量级分布式DNS实现了服务发现，从而扩展了Docker自身links的概念。Servic可以单独的添加，也可以从应用仓库中选择部署。
+applications.service.info.2=Servic还可以利用系统的内置的服务,如负载均衡（LB），健康监测，升级支持，以及高可用性等特性。
 applications.service.learnMore=了解更多
 applications.service.add.1=添加服务
-applications.service.add.2=从目录添加
+applications.service.add.2=从应用商店添加
 
 applications.stacks.stacks=栈区
 applications.stacks.addStack=添加栈
@@ -23,8 +23,8 @@ applications.stacks.sort.state=状态
 applications.stacks.noStack=没有栈
 
 header.nav.applications=应 用
-header.nav.catalog=目  录
-header.nav.infrastructure=架  构
+header.nav.catalog=应用商店
+header.nav.infrastructure=基础架构
 header.nav.admin=后  台
 header.nav.api=接  口
 header.nav.help=帮  助
