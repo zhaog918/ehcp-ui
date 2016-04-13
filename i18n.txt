@@ -3,13 +3,13 @@ login.user.tip=如 张三
 login.password=密码
 login.pwd.wrong=密码错误
 login.welcome.head=您好
-login.welcome.body=欢迎来到EMC
+login.welcome.body=欢迎使用EHCP
 login.button=登陆
 login.loging.label=登陆中...
 
 applications.first.host=添加你的第一个主机
 applications.first.service=添加你的第一个服务
-applications.service.info.1=一个服务是由同一个Docker镜像创建的容器组，但是在Docker的帮助下，使Rancher具有了轻量级，分布式的DNS服务。我们可以单独的添加服务，也可以从目录里面部署。
+applications.service.info.1=服务是一组由同一个Docker镜像创建的容器集合，我们利用自身轻量级分布式DNS服务实现了服务发现，从而扩展了Docker自身links的概念。我们可以单独的添加服务，也可以从应用仓库中选择并部署。
 applications.service.info.2=服务还可以利用其它的Rancher的内置服务,如负载均衡，健康监测，升级支持，以及高可用性。
 applications.service.learnMore=了解更多
 applications.service.add.1=添加服务
