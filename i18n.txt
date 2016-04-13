@@ -1,0 +1,49 @@
+login.username=用户名
+login.user.tip=如 张三
+login.password=密码
+login.pwd.wrong=密码错误
+login.welcome.head=您好
+login.welcome.body=欢迎来到EMC
+login.button=登陆
+login.loging.label=登陆中...
+
+applications.first.host=添加你的第一个主机
+applications.first.service=添加你的第一个服务
+applications.service.info.1=一个服务是由同一个Docker镜像创建的容器组，但是在Docker的帮助下，使Rancher具有了轻量级，分布式的DNS服务。我们可以单独的添加服务，也可以从目录里面部署。
+applications.service.info.2=服务还可以利用其它的Rancher的内置服务,如负载均衡，健康监测，升级支持，以及高可用性。
+applications.service.learnMore=了解更多
+applications.service.add.1=添加服务
+applications.service.add.2=从目录添加
+
+applications.stacks.stacks=栈区
+applications.stacks.addStack=添加栈
+applications.stacks.sort=排 序:
+applications.stacks.sort.name=名称
+applications.stacks.sort.state=状态
+applications.stacks.noStack=没有栈
+
+header.nav.applications=应 用
+header.nav.catalog=目  录
+header.nav.infrastructure=架  构
+header.nav.admin=后  台
+header.nav.api=接  口
+header.nav.help=帮  助
+header.right.environment=环  境
+header.right.yourEnv=你的环境
+header.right.allEnv=所有环境
+header.right.manageEnv=管理环境
+header.right.logout=注 销
+header.right.changePwd=修改密码
+header.right.account=账 户
+header.right.theme=主 题
+header.right.theme.light=清新
+header.right.theme.auto=自适应
+header.right.theme.dark=夜行者
+//在templates/tabs/下
+header.nav.applications.stacks=栈 区
+
+footer.documentation=文 档
+footer.faq=帮 助
+footer.issue=问题反馈
+footer.forum=论 坛
+footer.download=下 载
